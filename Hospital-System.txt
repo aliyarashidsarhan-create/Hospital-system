@@ -1,0 +1,153 @@
+Complete Hospital System Example (Simple, Without Table)
+
+A hospital management system helps doctors, nurses, receptionists, patients, and administrators handle daily operations. It manages patient records, appointments, billing, prescriptions, and reports. Below is a full example showing how Scrum concepts apply to building such a system.
+
+1. User Stories (15 Stories, Simple Format)
+1. As a patient, I want to register online so that I can create my hospital profile.
+
+Acceptance Criteria:
+• User can enter name, age, phone, email.
+• System saves the profile and sends confirmation.
+Weight: 5 story points.
+
+2. As a patient, I want to log in securely so that I can access my medical information.
+
+Acceptance Criteria:
+• Login requires valid username and password.
+• Wrong password shows an error.
+Weight: 3 story points.
+
+3. As a patient, I want to book an appointment so that I can meet a doctor.
+
+Acceptance Criteria:
+• Patient can choose doctor, date, and time.
+• System checks availability.
+• Confirmation message is shown.
+Weight: 8 story points.
+
+4. As a doctor, I want to view my appointment schedule so that I know which patients are visiting.
+
+Acceptance Criteria:
+• Shows daily, weekly, monthly schedule.
+• Shows patient names and visit reasons.
+Weight: 5 story points.
+
+5. As a doctor, I want to update patient diagnosis so that medical history stays complete.
+
+Acceptance Criteria:
+• Doctor can add notes, diagnosis, and attach reports.
+• System saves history correctly.
+Weight: 13 story points.
+
+6. As a nurse, I want to record patient vital signs so that doctors can review them during visits.
+
+Acceptance Criteria:
+• Nurse can enter temperature, BP, pulse, oxygen level.
+• Data appears immediately in patient record.
+Weight: 8 story points.
+
+7. As a patient, I want to receive a digital prescription so that I can buy medicine easily.
+
+Acceptance Criteria:
+• Doctor can generate prescription.
+• Patient can download PDF.
+Weight: 5 story points.
+
+8. As a pharmacist, I want to view prescriptions so that I can dispense medicines correctly.
+
+Acceptance Criteria:
+• Pharmacist sees prescription details.
+• Medicine list is accurate and readable.
+Weight: 8 story points.
+
+9. As an admin, I want to manage doctor profiles so that the system stays updated.
+
+Acceptance Criteria:
+• Add, edit, or remove doctors.
+• Assign department and schedule.
+Weight: 3 story points.
+
+10. As an admin, I want to manage hospital departments so that organizing staff becomes easier.
+
+Acceptance Criteria:
+• Admin can create or modify departments.
+• Doctors linked to right departments.
+Weight: 5 story points.
+
+11. As a patient, I want to receive appointment reminders so that I don’t miss my visit.
+
+Acceptance Criteria:
+• SMS/email reminder sent 24 hours before.
+• Message contains doctor name and timing.
+Weight: 2 story points.
+
+12. As a doctor, I want quick access to patient history so that I can treat the patient safely.
+
+Acceptance Criteria:
+• Shows previous diagnosis, medicines, allergies.
+• Loads instantly.
+Weight: 13 story points.
+
+13. As an accountant, I want to generate bills so that payments are tracked properly.
+
+Acceptance Criteria:
+• Bill shows consultation fees, tests, medicines.
+• Printable and downloadable.
+Weight: 8 story points.
+
+14. As a patient, I want to pay bills online so that I can complete payment easily.
+
+Acceptance Criteria:
+• Payment through card or online banking.
+• Invoice generated after payment.
+Weight: 13 story points.
+
+15. As an admin, I want to generate hospital reports so that performance can be monitored.
+
+Acceptance Criteria:
+• Shows number of patients, revenue, doctor activity.
+• Export available.
+Weight: 21 story points (complex analytics).
+
+2. Complete Product Backlog (With Weights, Simple)
+
+Below is the entire backlog written plainly:
+
+• Patient registration – 5 points
+• Patient login – 3 points
+• Appointment booking – 8 points
+• Doctor schedule view – 5 points
+• Patient diagnosis update – 13 points
+• Nurse vital recording – 8 points
+• Digital prescriptions – 5 points
+• Pharmacist prescription access – 8 points
+• Doctor profile management – 3 points
+• Department management – 5 points
+• Appointment reminders – 2 points
+• Patient medical history view – 13 points
+• Billing generation – 8 points
+• Online payments – 13 points
+• Hospital analytics/reporting – 21 points
+
+Prioritization (highest value first):
+
+Registration, login, appointment booking
+
+Doctor/nurse core features
+
+Prescriptions & billing
+
+Payments
+
+Admin & analytics (later sprint)
+
+3. Full Example Summary
+
+You now have:
+✔ A full hospital system example
+✔ Simple language
+✔ No tables
+✔ 15 user stories
+✔ Each with acceptance criteria
+✔ Full backlog with weighting
+✔ Prioritization logically applied
