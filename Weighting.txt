@@ -1,0 +1,110 @@
+Weighting and Estimation for Hospital System (Simple Explanation)
+1. Story Point Estimation Techniques
+
+Story points are a way to measure how big or difficult a user story is. They do not represent hours; they show effort, complexity, and risk.
+Common story point scales: 1, 2, 3, 5, 8, 13… (Fibonacci).
+
+When estimating for a hospital system (e.g., patient registration, appointment scheduling, lab reports), teams look at:
+
+Complexity (How technically challenging is it?)
+
+Effort (How much work is needed?)
+
+Uncertainty (Any risks or unknowns?)
+
+Example:
+Creating a patient registration form = low complexity → small points
+Building a lab management system = high complexity → large points
+
+2. Methods Used for Estimation
+
+There are several simple techniques used by Agile teams:
+
+• Planning Poker
+
+Team members get cards showing numbers (1, 2, 3, 5…)
+
+The user story is read out (e.g., “As a doctor, I want to see patient history”).
+
+Everyone picks a card secretly.
+
+Cards are shown together.
+
+If numbers differ, the team discusses why and agrees on one value.
+
+This helps avoid bias and brings team understanding.
+
+• T-Shirt Sizing
+
+User stories are grouped into sizes: XS, S, M, L, XL.
+Later, each size is linked to story points.
+
+Example in hospital system:
+
+XS → Display doctor list
+
+M → Manage appointments
+
+XL → Build electronic medical records (EMR)
+
+This method is useful at the beginning when details are not clear.
+
+• Three-Point Estimation
+
+Team gives three values:
+
+Optimistic (O) – best case
+
+Pessimistic (P) – worst case
+
+Most likely (M)
+
+Then they calculate expected size using a formula.
+Good for risky or unclear hospital features like “Emergency triage system”.
+
+3. How to Weight User Stories
+
+User stories are weighted based on three factors:
+
+• Complexity
+
+How difficult is the task?
+
+Simple form → low complexity
+
+Integrating with lab machines or pharmacy → high complexity
+
+Complexity directly increases story points.
+
+• Priority
+
+How important is the story for hospital operation?
+
+High priority → features needed immediately (patient admission, billing)
+
+Medium priority → improves workflow
+
+Low priority → nice-to-have features
+
+High priority does not always mean high story points. It's about need, not size.
+
+• Business Value
+
+How much benefit does the feature bring to the hospital?
+Examples:
+
+High value → reduces waiting time, increases accuracy (e.g., appointment scheduling).
+
+Medium value → makes staff work easier.
+
+Low value → cosmetic improvements.
+
+Business value helps decide what to build first.
+
+Summary (Very Simple)
+
+Story points measure effort, not hours.
+
+Planning Poker, T-shirt sizing, and Three-Point are common estimation methods.
+
+User stories are weighted by complexity (how hard), priority (how needed), and business value (how useful).
