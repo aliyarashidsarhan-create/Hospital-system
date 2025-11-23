@@ -1,0 +1,79 @@
+Analysis Phase Overview
+
+The Analysis Phase is the stage in the software development lifecycle (SDLC) where the requirements of the system are thoroughly studied and documented. Its primary purpose is to understand what the hospital system must do before designing or coding begins.
+
+Importance:
+
+Ensures the software meets hospital needs (patients, staff, admin).
+
+Reduces risks of errors, rework, and scope creep.
+
+Serves as a blueprint for design and development.
+
+Sub-Steps of the Analysis Phase
+
+Requirement Gathering (🔍)
+
+Collect requirements from doctors, nurses, administrative staff, patients, and IT personnel.
+
+Methods: Interviews, questionnaires, observation, existing system study.
+
+Example: Need to schedule patient appointments, manage medical records, and generate bills.
+
+Requirement Analysis (🧩)
+
+Break down and understand requirements in detail.
+
+Identify conflicts, redundancies, or unrealistic expectations.
+
+Example: Verify that lab test results can be linked to patient records without manual entry.
+
+Feasibility Study (⚖️)
+
+Evaluate technical, operational, and financial feasibility.
+
+Example: Check if the hospital’s IT infrastructure supports real-time patient data access.
+
+Modeling & Documentation (📝)
+
+Create process diagrams, data flow diagrams (DFD), and use case diagrams.
+
+Produce Software Requirement Specification (SRS) document.
+
+Example: Flow of patient registration → consultation → billing → record storage.
+
+Validation & Review (✔️)
+
+Review requirements with stakeholders to confirm accuracy and completeness.
+
+Example: Confirm with doctors that the lab module meets reporting needs.
+
+Deliverables / Outcomes (📦)
+
+Software Requirement Specification (SRS): Complete description of the hospital system.
+
+Use Case & Data Flow Diagrams: Visual representation of workflows.
+
+Feasibility Report: Confirms project viability.
+
+Validated Requirements: Approved by stakeholders.
+
+Best Practices (🌟)
+
+Engage all relevant hospital stakeholders early.
+
+Document requirements clearly and unambiguously.
+
+Prioritize requirements based on critical hospital operations.
+
+Continuously review and refine requirements.
+
+Common Challenges (⚠️)
+
+Conflicting requirements between departments (e.g., billing vs. medical records).
+
+Incomplete or unclear information from users.
+
+Changing requirements due to evolving hospital policies.
+
+Communication gaps between technical teams and medical staff.
