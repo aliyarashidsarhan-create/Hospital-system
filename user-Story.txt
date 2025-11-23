@@ -1,0 +1,52 @@
+1. What are User Stories and Their Format
+
+A user story is a short description of a feature from the perspective of the person who wants it. It focuses on who wants it, what they want, and why they want it.
+
+Format:
+
+As a [role], I want [feature] so that [benefit].
+
+
+Example for a hospital system:
+
+As a patient, I want to book an appointment online so that I don’t have to wait in line.
+
+As a doctor, I want to view patient medical history so that I can provide better treatment.
+
+As a nurse, I want to update patient vitals so that records are always accurate.
+
+2. How to Write Effective User Stories
+
+To make user stories effective:
+
+Keep them simple and clear – Avoid technical jargon.
+
+Focus on user needs – Describe the value for the user, not the system.
+
+Small and manageable – Each story should be doable in a short period.
+
+Independent – Stories should work on their own without depending on others.
+
+Testable – You should be able to check if it’s done.
+
+3. Acceptance Criteria and Their Importance
+
+Acceptance criteria define the conditions that must be met for a story to be considered complete. They make the story testable and ensure everyone understands what “done” means.
+
+Example:
+User Story: As a patient, I want to book an appointment online so that I don’t have to wait in line.
+Acceptance Criteria:
+
+The patient can select a doctor and available time slot.
+
+The system confirms the booking via email.
+
+The patient can cancel or reschedule the appointment.
+
+Importance:
+
+Ensures clarity between developers and users.
+
+Helps in testing and quality assurance.
+
+Prevents misunderstandings about functionality.
