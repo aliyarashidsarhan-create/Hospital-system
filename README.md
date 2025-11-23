@@ -42,3 +42,23 @@
 | US11| As a lab technician, I want to upload test results, so that doctors and patients can access them. | Medium | 5       | Lab results are uploaded and linked to the correct patient profile.                |
 | US12| As a patient, I want to download test results, so that I can share them with other doctors. | Medium | 3       | Patient can download lab reports in PDF format.                                     |
 | US13| As a receptionist, I want to check-in patients, so that appointment workflow is smooth. | High  | 3           | Receptionist can mark patients as arrived and update appointment status.           |
+
+## Weighting and Estimation – Hospital System
+
+| User Story ID | User Story Description                                      | Complexity (1-5) | Priority (High/Medium/Low) | Business Value (1-5) | Story Points |
+|---------------|------------------------------------------------------------|-----------------|---------------------------|---------------------|--------------|
+| US001         | As a doctor, I want to view patient medical history so that I can provide accurate treatment. | 3               | High                      | 5                   | 8            |
+| US002         | As a nurse, I want to record patient vitals so that doctors can monitor their health.      | 2               | High                      | 4                   | 5            |
+| US003         | As an admin, I want to manage doctor schedules so that appointments are organized.        | 3               | Medium                    | 3                   | 5            |
+| US004         | As a patient, I want to book appointments online so that I can avoid waiting in queues.   | 2               | High                      | 4                   | 3            |
+| US005         | As a lab technician, I want to upload test results so that patients and doctors can access them. | 3        | Medium                    | 4                   | 5            |
+| US006         | As an admin, I want to generate billing reports so that financial management is easier.   | 4               | Medium                    | 3                   | 8            |
+| US007         | As a patient, I want to receive reminders for my appointments so that I don’t forget them.| 2               | Low                       | 3                   | 3            |
+| US008         | As a doctor, I want to prescribe medications electronically so that pharmacy processing is faster. | 3       | High                      | 5                   | 5            |
+| US009         | As a nurse, I want to track patient medication schedules so that doses are not missed.   | 2               | Medium                    | 4                   | 3            |
+| US010         | As an admin, I want to manage hospital inventory so that supplies are always available.   | 4               | High                      | 4                   | 8            |
+
+**Notes:**  
+- **Complexity:** 1 = very simple, 5 = very complex  
+- **Business Value:** 1 = low, 5 = high  
+- **Story Points:** Weighted based on complexity, priority, and business value  
